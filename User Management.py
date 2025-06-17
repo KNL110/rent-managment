@@ -56,7 +56,7 @@ class SignIn:
         self.tenant.mainloop()
 
     def admin_signin(self):
-        if self.auser_entry.get() == "root" and self.apass_entry.get() == "qsc24nfyv6":
+        if self.auser_entry.get() == "root" and self.apass_entry.get() == "root@postgres":
             messagebox.showinfo("Success", "Login In successfully.")
             self.admin.destroy()
             root1 = Tk()
