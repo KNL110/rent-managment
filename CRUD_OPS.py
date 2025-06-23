@@ -1,7 +1,7 @@
 from tkinter import messagebox
-import mysql.connector
+import psycopg2
 
-db_connection = mysql.connector.connect(
+db_connection = psycopg2.connect(
     host="rent@localhost",
     user="knl",
     password="12345678",
