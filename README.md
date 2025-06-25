@@ -89,7 +89,7 @@ rent-management/
 ---
 
 ## 📁 Future Improvements
-- Migrate to Flask/Django for web-based version
+- Migrate to web-based version
 - Add role-based dashboards
 - Add rent due reminders via email
 - Encrypt stored passwords
